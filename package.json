@@ -1,5 +1,5 @@
 {
-  "name": "api-automation-test-exercise",
+  "name": "apiTestAutomation",
   "version": "1.0.0",
   "description": "simple API automation framework",
   "main": "main.js",

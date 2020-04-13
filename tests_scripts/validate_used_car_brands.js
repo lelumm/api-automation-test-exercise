@@ -1,8 +1,8 @@
 "use strict";
 
-let trademe = require('../api/tradeMeApi');
+const trademe = require('../api/trade_me_api');
 
-function checkUsedCarsBrandsCount(){
+function validateUsedCarBrands(){
     trademe.usedMotorsSearch().then((response) => {
         const usedMotors = JSON.parse(response); 
         let count = 0;
@@ -12,8 +12,8 @@ function checkUsedCarsBrandsCount(){
                 count++;
             }
         }
-        return count;
+        console.log(`Total brands count : ${count}`);
      })
 };
 
-module.exports.checkUsedCarsBrandsCount = checkUsedCarsBrandsCount;
+module.exports.validateUsedCarBrands = validateUsedCarBrands;
