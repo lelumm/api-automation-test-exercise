@@ -13,4 +13,4 @@
 2. run `npm install`
 
 ### To excute test
-3. @root directory run `node ../tests_scripts/execute_all_tests.js`
+3. @root directory run `node ./tests_scripts/execute_all_tests.js`
