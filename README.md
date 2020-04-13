@@ -1,4 +1,4 @@
-# Solution for Api Automation Test Exercise 
+# Solution for API Automation Test Exercise 
 
 ## The Exercise
 ### Using the TradeMe Sandbox web site write automation code which does the following:
@@ -7,10 +7,10 @@
 * Check that the brand ‘Hispano Suiza’ does not exist.
 
 ## How to use
-### First, complete the pre steps mentioned
+### First, complete the pre-steps mentioned
 1. `install nodejs`
 2. `git clone https://github.com/lelumm/api-automation-test-exercise.git`
 2. run `npm install`
 
-### To excute test
+### To execute test
 3. @root directory run `node ./tests_scripts/execute_all_tests.js`
