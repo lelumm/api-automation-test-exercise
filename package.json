@@ -1,0 +1,24 @@
+{
+  "name": "api-automation-test-exercise",
+  "version": "1.0.0",
+  "description": "simple API automation framework",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "asserts": "^4.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
