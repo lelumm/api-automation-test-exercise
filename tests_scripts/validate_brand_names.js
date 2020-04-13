@@ -1,6 +1,6 @@
 "use strict";
 
-let trademe = require('../api/trade_me_api');
+const trademe = require('../api/trade_me_api');
 
 function validateBrandNames(brandName){
     trademe.usedMotorsSearch().then((response) => {

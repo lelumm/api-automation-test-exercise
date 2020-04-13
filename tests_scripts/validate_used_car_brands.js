@@ -6,7 +6,6 @@ function validateUsedCarBrands(){
     trademe.usedMotorsSearch().then((response) => {
         const usedMotors = JSON.parse(response); 
         let count = 0;
-
         for (let i in Object.keys(usedMotors.Subcategories)) {
             if (usedMotors.Subcategories[i].Name !== 'Other'){
                 count++;
