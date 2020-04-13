@@ -1,15 +1,12 @@
 {
-  "name": "apiTestAutomation",
+  "name": "api-automation-test-exercise",
   "version": "1.0.0",
   "description": "simple API automation framework",
-  "main": "main.js",
+  "main": "execute_all_tests.js",
   "private": true,
-  "scripts": {
-    "start": "npm run dev"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/lelumm/api-automation-test-exercise.git"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",

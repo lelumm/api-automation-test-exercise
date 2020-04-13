@@ -9,8 +9,8 @@
 ## How to use
 ### First, complete the pre steps mentioned
 1. `install nodejs`
-2. clone `https://github.com/lelumm/lelumm.git`
+2. `git clone https://github.com/lelumm/api-automation-test-exercise.git`
 2. run `npm install`
 
 ### To excute test
-3. run `node ../tests_scripts/checkHowManyUsedCarsBrands.js `
+3. @root directory run `node ../tests_scripts/execute_all_tests.js`

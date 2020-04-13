@@ -7,7 +7,8 @@ function validateListedCount(brandName){
         const usedMotors = JSON.parse(response); 
         const index = usedMotors.Subcategories.findIndex(subCategory => subCategory.Name === brandName);
         const listedCount = usedMotors.Subcategories[index].Count
-        console.log(`${brandName} listed count : ${listedCount}`);
+        if (listedCount === undefined){console.log(`${brandName} listed count : Fail`);}
+        else{console.log(`${brandName} listed count : ${listedCount}`);}
      })
 }
 

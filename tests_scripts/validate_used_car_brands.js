@@ -12,7 +12,7 @@ function validateUsedCarBrands(){
                 count++;
             }
         }
-        console.log(`Total brands count : ${count}`);
+        console.log(`Total named brands count : ${count}`);
      })
 };
 
